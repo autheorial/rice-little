@@ -1,0 +1,353 @@
+/*
+Theme Name: little things
+Theme URI: http://arose.nu
+Description: white, plain, fixed sidebar
+Author: Alice
+Author URI: http://arose.nu
+
+*/
+
+body {
+background-color : #FEFEFE;
+padding : 0;
+margin : 0;
+font : normal 80% georgia, baskerville, serif;
+line-height : 140%;
+color : #333333;
+}
+
+#fixed{
+position:fixed;
+}
+
+#page{
+text-align:center;
+width:250px;
+margin:0;
+}
+
+#container{
+width:750px;
+margin:1% auto 2% 300px;
+border-top:5px solid #404040;
+clear:both;
+}
+
+#content {
+border-top: 10px solid #404040;
+margin:2px 0 2px 0;
+width: 740px;
+padding: 0 5px 10px 5px;
+} 
+
+#sidebar{
+width:250px;
+float:left;
+margin:0 0 0 15px;
+clear:both;
+}
+
+.entry{
+padding-bottom:5px;
+}
+
+#header {
+margin:45% auto 0 auto;
+padding: 10px 0 0 0;
+font: italic 200% georgia;
+text-align:center;
+border-top: 5px solid #404040;
+}
+
+#header a:link, #header a:hover, #header a:visited, #header a:active{
+color:#444444;
+border-bottom:none;
+}
+
+.toggle, .toggleLink{
+text-transform:uppercase;
+font: normal 80% georgia;
+padding:0;
+margin:0;
+}
+
+#navigation{
+text-transform:uppercase;
+font-size:80%;
+padding:0;
+margin:0;
+}
+
+#side{
+list-style-type : none;
+list-style: none;
+margin: 0;
+padding:0;
+}
+
+#navigation li{
+width: 100%;
+background: transparent;
+display: block;
+}
+
+#navigation li a{
+list-style-type : none;
+list-style : none;
+width: auto;
+margin: 0;
+text-decoration: none;
+font: normal 90% georgia;
+letter-spacing:1px;
+text-transform: uppercase;
+font-weight: normal;
+background: transparent;
+color:#888888;
+border-bottom:none;
+}
+
+#navigation li a:hover{
+color:#333333;
+border-bottom:none;
+}
+
+.box{
+padding:5px;
+}
+
+h1, h6 {
+font: normal 230% Calibri;
+color:#555555;
+margin: 10px 0 0 0;
+}
+
+h4{
+font: normal 190% Calibri;
+color:#555555;
+margin: 10px 0 0 0;
+}
+
+
+a.blog:link, a.blog:visited{
+color:#555555;
+}
+
+a.blog:hover, a.blog:active{
+color:#555555;
+}
+
+h2 {
+font: normal 180% georgia;
+text-align:center;
+margin:10px;
+}
+
+h3 {
+margin:0 0 5px 5px;
+font: normal 100% Georgia;
+text-align:left;
+color:#767676;
+}
+
+h5{
+font: normal 150% georgia;
+color:#666;
+text-transform: uppercase;
+text-align:center;
+margin:0 0 10px 0;
+padding:20px 0 20px 0;
+border-bottom: 1px #999 solid;
+border-top: 1px #999 solid;
+}
+
+a:link, a:visited {
+color: #767676;
+text-decoration:none;
+border-bottom:#767676 dotted 1px;
+}
+
+a:hover, a:active {
+color: #444444;
+border-bottom:#444444 solid 1px;
+}
+
+b, strong {
+}
+
+u,underline{
+border-bottom: #888 2px solid;
+text-decoration:none;
+}
+
+s, strike, del {
+color:#ccc;
+}
+
+blockquote{
+padding: 10px;
+margin:20px;
+background-color:#f4f4f4;
+}
+
+.more{
+font: normal 90% georgia;
+text-decoration:none;
+text-transform:uppercase;
+margin:10px 0 0 0;
+}
+
+.drr{
+color: inherit;
+font: normal 300% georgia;
+float:left;
+padding-bottom:30px;
+margin-left:30px;
+}
+
+.dr{
+color: inherit;
+font: normal 300% georgia;
+float:right;
+margin-right:0px;
+
+}
+
+.center {
+text-align : center;
+margin : 0 auto 0 auto;
+}
+
+ul{
+list-style-type:circle;
+padding:0 0 0 3%;
+}
+
+hr{
+border: 1px solid #ccc; 
+}
+
+.textInput, input, textarea, select
+{
+border: none;
+background: transparent;
+font:normal 100% georgia;
+border: 1px solid #999;
+padding:6px;
+color:#666;
+}
+
+code, pre, xmp, plaintext, listing {
+font : normal 100% courier new;
+}
+
+
+::selection {
+background-color: #ddd;
+font-weight:normal;
+}
+
+::-moz-selection {
+background-color: #ddd;
+font-weight:normal;
+}
+
+.data{
+background-color:#f4f4f4;
+font: normal 90% georgia;
+padding:7px;
+}
+
+.commented{
+margin:10px 0px 0px 0px;
+padding:0 15px 0 15px;
+border-left: solid 7px #f4f4f4;
+border-right: solid 7px #f4f4f4;
+}
+
+.thecomment {
+margin: 10px 0 15px 0;
+}
+
+.editComment, .editableComment, .textComment{
+	display: inline;
+}
+.comment-childs{
+	margin: 5px 0 0 10px;
+padding:10px;
+}
+.chalt{
+}
+#newcomment{
+width:80%;
+}
+#newcommentsubmit{
+	color:#666;
+}
+.adminreplycomment{
+font-size:80%;
+	margin:4px;
+	padding:4px;
+}
+.mvccls{
+}
+
+.author{
+font: normal 220% georgia;
+text-transform:capitalize;
+}
+
+a.author:link, a.author:visited{
+font: normal 220% georgia;
+text-transform:capitalize;
+}
+
+.footnotes {
+  font-size: 90%;
+  padding: 10px 0 10px 0;
+}
+
+.footnotes ol {
+  margin: 0px 0px 0px 3%;
+padding:0;
+}
+
+sup.footnote a {
+  text-decoration: none;
+  font: normal 90%/100% georgia;
+}
+
+sup.footnote {
+}
+
+.footnotereverse a {
+  padding: 0 0 0 5px;
+  text-decoration: none;
+}
+
+.left {
+text-align : left;
+float : left;
+width : auto;
+}
+
+.right {
+text-align : right;
+float : right;
+width : auto;
+}
+
+acronym {
+background-color:#eee;
+}
+
+img.avatar{
+border-top-right-radius:15px; 
+border-bottom-left-radius:15px;
+border-top-left-radius:15px;
+border-bottom-right-radius:15px;
+}
+
+a.external_icon {
+	background: url(http://rice.hugs.nu/wp-content/plugins/sem-external-links/external.png) center right no-repeat;
+	padding-right: 13px;
+}
